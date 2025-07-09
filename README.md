@@ -114,9 +114,6 @@ Copiar código
 http://localhost/telcomanager
 
 Proyecto realizado como evaluación final de la materia Desarrollo de Aplicaciones Web
-
-Carrera: Ingeniería en Telecomunicaciones
-
 Participantes:
 Jeorgelyz Camacaro
 Lihoffman Carrasquero
