@@ -70,9 +70,53 @@ Credenciales de ejemplo:
 
 *(Estas credenciales se pueden modificar desde la base de datos manualmente.)*
 
-## Cómo Usar el Proyecto
 
-1. Clona el repositorio:
+---
 
-   ```bash
-   git clone 
+## ¿Cómo instalar y ejecutar el sistema?
+
+### 1. Configurar el entorno local
+
+- Descarga e instala **XAMPP** si no lo tienes:  
+[https://www.apachefriends.org/es/index.html](https://www.apachefriends.org/es/index.html)
+
+- Asegúrate de iniciar **Apache** y **MySQL** desde el panel de XAMPP.
+
+### 2. Clonar o copiar el repositorio
+
+Clona el repositorio desde GitHub:
+
+```bash
+git clone https://github.com/w0000wie/TelcoManager.git
+
+O descarga el archivo ZIP desde GitHub y extráelo en:
+C:\xampp\htdocs\
+Debe quedar así:
+C:\xampp\htdocs\telcomanager\
+
+### 3. Importar la base de datos
+Abre tu navegador y accede a:
+http://localhost/phpmyadmin
+
+Haz clic en "Nueva" y crea una base de datos llamada:
+telcomanager
+Con la base ya creada, haz clic sobre su nombre.
+
+Ve a la pestaña "Importar".
+En "Archivo a importar", selecciona telcomanager_db.sql ubicado en la raíz del proyecto.
+Haz clic en "Continuar".
+Si todo fue exitoso, verás las tablas usuarios, nodos, equipos y enlaces.
+
+Acceso al sistema
+Una vez importada la base de datos, accede a la app en tu navegador:
+
+Copiar código
+http://localhost/telcomanager
+
+Proyecto realizado como evaluación final de la materia Desarrollo de Aplicaciones Web
+
+Carrera: Ingeniería en Telecomunicaciones
+
+Participantes:
+Jeorgelyz Camacaro
+Lihoffman Carrasquero
