@@ -99,7 +99,7 @@ Abre tu navegador y accede a:
 http://localhost/phpmyadmin
 
 Haz clic en "Nueva" y crea una base de datos llamada:
-telcomanager
+telcomanager_db
 Con la base ya creada, haz clic sobre su nombre.
 
 Ve a la pestaña "Importar".
