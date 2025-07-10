@@ -30,9 +30,13 @@ include('../includes/menu.php');
             echo "<td>{$nodo['nombre_nodo']}</td>";
             echo "<td>{$nodo['ubicacion']}</td>";
             echo "<td>{$nodo['estado']}</td>";
-            echo "<td><a href='modificar_nodo.php?id={$nodo['id']}'>Modificar</a></td>";
-            echo "</tr>";
+           if ($_SESSION['rol'] == 'admin') {
+                echo "<td><a href='modificar_nodo.php?id={$nodo['id']}'>Modificar</a></td>";
+            } else {
+            echo "<td>-</td>";
         }
+            echo "</tr>";
+         }
         ?>
     </tbody>
 </table>
